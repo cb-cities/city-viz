@@ -9,6 +9,9 @@ npm start
 
 ### Data format
 
+`awk -F, '{OFS=",";print "["$3,$2,($1%2)+1"],"}' TS_LONDON_SMALL.csv > city.json`
+
+
 The Scatterplot Layer takes in paired latitude and longitude coordinated
 points and renders them as circles with a certain radius.
 

@@ -13,7 +13,7 @@ const FEMALE_COLOR = [255, 0, 128];
 
 // Source data CSV
 const DATA_URL =
-  'data/manhattan.json'; // eslint-disable-line
+  'data/city.json'; // eslint-disable-line
 
 class Root extends Component {
   constructor(props) {
@@ -66,7 +66,7 @@ class Root extends Component {
           data={data}
           maleColor={MALE_COLOR}
           femaleColor={FEMALE_COLOR}
-          radius={30}
+          radius={5}
         />
       </MapGL>
     );

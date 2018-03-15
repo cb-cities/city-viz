@@ -5,8 +5,8 @@ import DeckGL, {ScatterplotLayer} from 'deck.gl';
 export default class DeckGLOverlay extends Component {
   static get defaultViewport() {
     return {
-      longitude: -74,
-      latitude: 40.7,
+      longitude: -0.1,
+      latitude: 51.5,
       zoom: 11,
       maxZoom: 16,
       pitch: 0,
