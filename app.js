@@ -13,7 +13,7 @@ const FEMALE_COLOR = [255, 0, 128];
 
 // Source data CSV
 const DATA_URL =
-  'https://raw.githubusercontent.com/uber-common/deck.gl-data/master/examples/scatterplot/manhattan.json'; // eslint-disable-line
+  'data/manhattan.json'; // eslint-disable-line
 
 class Root extends Component {
   constructor(props) {
